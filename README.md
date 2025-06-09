@@ -52,25 +52,37 @@ AutoAI is an AI-driven vehicle health monitoring system that uses real-time sens
 
 ## 🔢 Setup Instructions
 
-1. Clone the repo
-2. Install dependencies:
+1. **Clone the Repository**:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   git clone https://github.com/AnshD109/AutoAI-Smart-Vehicle-Health-Monitoring-Failure-Prediction.git
+   cd AutoAI-Smart-Vehicle-Health-Monitoring-Failure-Prediction
 
-3. Run the publisher and subscriber:
+2. **Set Up Python Virtual Environment**:
 
-```bash
-python sensor_publisher.py
-python sensor_subscriber.py
-```
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # macOS/Linux
+   venv\Scripts\activate      # Windows
 
-4. Launch the Flask app:
+3. **Install Python Dependencies**:
 
-```bash
-python app.py
-```
+   ```bash
+   pip install -r requirements.txt
+
+4. **Simulate Sensor Data with MQTT Publisher & Subscriber**:
+
+   ```bash
+   python sensor_publisher.py
+   python sensor_subscriber.py
+
+5. **Launch the Flask Web Application**:
+
+   ```bash
+   python app.py
+
+6. **Train or Retrain the Machine Learning Model(if required)**
+   - model.ipynb
 
 ---
 
