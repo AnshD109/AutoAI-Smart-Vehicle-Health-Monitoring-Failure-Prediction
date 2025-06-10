@@ -4,7 +4,6 @@ import numpy as np
 import joblib
 import requests
 
-# Load the trained XGBoost model
 model = joblib.load("xgb_model.pkl")  
 
 # Flask API endpoint to send predictions
