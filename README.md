@@ -10,7 +10,7 @@ AutoAI is an AI-driven vehicle health monitoring system that uses real-time sens
 
 ---
 
-## 🔹 Key Features
+## 🔹 Key Features 
 
 * ⏱️ Real-time sensor data streaming via MQTT
 * 🤖 Predictive maintenance using XGBoost
