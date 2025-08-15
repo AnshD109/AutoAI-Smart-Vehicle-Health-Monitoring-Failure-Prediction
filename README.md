@@ -4,7 +4,7 @@
 
 ---
 
-## 📊 Project Overview
+## 📊 Project Overview 
 
 AutoAI is an AI-driven vehicle health monitoring system that uses real-time sensor data to predict potential component failures. With a combination of machine learning, MQTT protocol, and a web-based dashboard, the system helps ensure smarter, safer, and more proactive vehicle maintenance.
 
