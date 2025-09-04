@@ -2,6 +2,7 @@ import paho.mqtt.client as mqtt
 import json
 import pandas as pd
 
+
 # MQTT Settings
 BROKER = "test.mosquitto.org" 
 PORT = 1883
