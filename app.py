@@ -4,6 +4,7 @@ from collections import deque
 
 app = Flask(__name__)
 
+
 # Store last 100 sensor readings
 sensor_data = deque(maxlen=100)
 
